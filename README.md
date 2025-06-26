@@ -2,6 +2,8 @@
 
 - Configured Vite
 - COnfigured TailwindCSS
+- Header
+- Sign-in Form
 
 # Features
 
