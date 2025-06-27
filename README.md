@@ -3,7 +3,17 @@
 - Configured Vite
 - COnfigured TailwindCSS
 - Header
+- Routing
 - Sign-in Form
+- Sign-up Form
+- Form validation
+- Firebase setup
+- Deployed app to production
+- Create Signup user Account
+- Implemented sign-in user APi
+- Created Redux store with userSlice
+- Implemented Sign out
+- Updated profile
 
 # Features
 
