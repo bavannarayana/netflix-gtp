@@ -50,7 +50,7 @@ const Login = () => {
                   photoURL: photoURL,
                 })
               );
-              navigate("/");
+              // navigate("/");
               setErrorMessage("Please Login!");
             })
             .catch((error) => {
@@ -71,8 +71,6 @@ const Login = () => {
       )
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -90,6 +88,7 @@ const Login = () => {
   return (
     <div>
       <Header />
+
       <div className="absolute bg-gradient-to-b from-black">
         <img
           src="https://assets.nflxext.com/ffe/siteui/vlv3/8200f588-2e93-4c95-8eab-ebba17821657/web/IN-en-20250616-TRIFECTA-perspective_9cbc87b2-d9bb-4fa8-9f8f-a4fe8fc72545_large.jpg"
